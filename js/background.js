@@ -5,6 +5,6 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if(!match) return;
 
     let newUrl = match[0];
-    newUrl = newUrl.replace(match[2], "0" + match[2]);
+    newUrl = newUrl.replace(match[2], "1" + match[2]);
     chrome.tabs.update(tabId, { url: newUrl });
 });
