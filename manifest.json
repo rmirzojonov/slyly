@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Sneaki",
+    "version": "1.0.0",
+    "description": "Redirects blocked wikipedia pages to available ones",
+
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
